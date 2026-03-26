@@ -1,0 +1,60 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+.venv/
+
+# Python bytecode et caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Données volumineuses (très important pour ton projet !)
+data/raw/*
+data/processed/*
+*.csv
+*.txt
+*.zip
+*.tar.gz
+
+# Modèles entraînés
+models/*
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Rapports et sorties
+reports/figures/*
+*.png
+*.jpg
+*.pdf
+
+# Logs
+*.log
+logs/
+
+# Variables d'environnement et secrets
+.env
+*.env
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
